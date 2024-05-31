@@ -7,6 +7,13 @@ To download the Kaggle dataset that contains all of the plants, we need to execu
 kaggle datasets download -p data abdallahalidev/plantvillage-dataset
 ```
 
+## Train MLflow Project
+To train your project, you can run your MLflow using:
+```bash
+mlflow run . -P data_path=/path/to/destination/dataset
+```
+This setup will allow you to efficiently manage and version large datasets using Kaggle and MLflow, ensuring reproducibility and scalability in your machine learning workflows.
+
 ## Running Your MLFlow Project
 To run your MLFlow project, you can use the following command from the terminal. This ensures that the MLFlow runs within the context defined by your MLproject and requirements.txt:
 
