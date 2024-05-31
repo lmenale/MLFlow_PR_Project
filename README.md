@@ -1,6 +1,12 @@
 # MLFlow_PR_Project
 This is the MLFlow project to keep track of our datasets.
 
+## Downloading the dataset
+To download the Kaggle dataset that contains all of the plants, we need to execute the following command:
+```bash
+kaggle datasets download -p data abdallahalidev/plantvillage-dataset
+```
+
 ## Running Your MLFlow Project
 To run your MLFlow project, you can use the following command from the terminal. This ensures that the MLFlow runs within the context defined by your MLproject and requirements.txt:
 
