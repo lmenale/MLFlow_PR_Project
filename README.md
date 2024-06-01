@@ -25,7 +25,7 @@ mlflow run MyMLFlowProject -P model_type=gradient_boosting
 If you're working in a team, setting up an MLFlow tracking server is useful. Run the following command in a dedicated terminal:
 
 ```bash
-mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host 0.0.0.0
+mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts --host localhost
 ```
 
 This command starts an MLFlow server with SQLite as the backend for storing experiments and a local directory for storing artifacts.
