@@ -1,5 +1,7 @@
 name: MLFlow_PR_Project
 
+python_env: env.yaml
+
 entry_points:
   main:
     parameters:
