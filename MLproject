@@ -1,12 +1,5 @@
 name: MLFlow_PR_Project
 
-# entry_points:
-#   main:
-#     parameters:
-#       data_file: {type: str, default: "data/data.csv"}
-#       model_type: {type: str, default: "random_forest"}
-#     command: "python main.py --data_file {data_file} --model_type {model_type}"
-
 entry_points:
   main:
     parameters:
