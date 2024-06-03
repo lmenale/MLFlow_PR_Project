@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlflow-pr-project"
+version = "0.1.0"
+description = "MLFlow project for DataScientest"
+authors = ["Luigi Menale <going3489.dev.qm7eo@slmail.me>"]
+license = "Apache 2.0"
+readme = "README.md"
+repository = "https://github.com/lmenale/MLFlow_PR_Project"
+keywords = ['MLFlow', 'DataScientest']
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mlflow = "^2.13.1"
+tensorflow = "^2.16.1"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
