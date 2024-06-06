@@ -2,7 +2,7 @@
 name = "mlflow-pr-project"
 version = "0.1.0"
 description = "MLFlow project for DataScientest"
-authors = ["Luigi Menale <going3489.dev.qm7eo@slmail.me>"]
+authors = ["Luigi Menale <lume.dev@outlook.com>"]
 license = "Apache 2.0"
 readme = "README.md"
 repository = "https://github.com/lmenale/MLFlow_PR_Project"
